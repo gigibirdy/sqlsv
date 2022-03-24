@@ -37,5 +37,5 @@ docker exec -it <yourcontainername> bash
  select * from dbo.customers
  go
 ```
-![aabanking database](images/customers.png)
+![aabanking database](customers.png)
 
