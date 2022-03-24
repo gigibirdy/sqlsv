@@ -33,8 +33,12 @@
 > Access SQL command line
 > ```
 > /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "<yourpassword>"
+
+#### List all databases
 > select name from sys.databases
 > go
+
+#### Change database context to "aabanking" and select all from the customers table
 > use aabanking
 > go
 > select * from dbo.customers
