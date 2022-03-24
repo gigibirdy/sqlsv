@@ -3,12 +3,12 @@
 #### Setup password for the SQL Server database
 > Pull an image from the official Microsoft registry 
 ```
-docker pull mcr.microsoft.com/mssql/server:2019-latest
+> docker pull mcr.microsoft.com/mssql/server:2019-latest
 ```
 
 > Run docker with the env -e variables to setup password (At least 8 characters including uppercase, lowercase letters, base-10 digits and/or non-alphanumeric symbols)
 ```
-docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=<yourpassword>" -p 1433:1433 --name <containername> -d mcr.microsoft.com/mssql/server:2019-latest
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=<yourpassword>" -p 1433:1433 --name <yourcontainername> -d mcr.microsoft.com/mssql/server:2019-latest
 ```
 
 #### Clone this repository to the destination folder
