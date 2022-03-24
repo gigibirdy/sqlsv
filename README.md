@@ -2,9 +2,9 @@
 
 #### Setup password for the SQL Server database
 > Pull an image from the official Microsoft registry 
-```
-> docker pull mcr.microsoft.com/mssql/server:2019-latest
-```
+>```
+docker pull mcr.microsoft.com/mssql/server:2019-latest
+>```
 
 > Run docker with the env -e variables to setup password (At least 8 characters including uppercase, lowercase letters, base-10 digits and/or non-alphanumeric symbols)
 ```
