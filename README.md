@@ -1,4 +1,4 @@
-# Build a docker image of SQL Server database with prefilled data
+# Create a docker image of SQL Server database with prefilled data
 
 #### Setup password for the SQL Server database
 > Pull an image from the official Microsoft registry 
